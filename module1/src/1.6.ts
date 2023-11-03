@@ -2,7 +2,7 @@
 // Normal function
 // Arow function
 
-
+//default value num2=10
 function add(num1:number, num2:number = 10):number{
     return num1+num2;
 }
