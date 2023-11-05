@@ -23,6 +23,7 @@
     const boolArray : GenericArray<boolean> = [true,false,true]
 
 
+    
 
 
     // array of object using generics
