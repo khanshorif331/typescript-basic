@@ -20,7 +20,7 @@ type AreaNumber = {
 // 
 
 // type AreaString = {
-//     [key in keyof AreaNumber]  : boolean
+//     [key in keyof AreaNumber]  : string
 // }
 
 // T => {height:string,width:number}
