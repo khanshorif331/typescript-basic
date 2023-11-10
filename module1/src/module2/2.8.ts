@@ -9,7 +9,7 @@
         title:string,
         completed:boolean
     }
-
+ 
     type Something = {something:string}
 
     const getTodo = async():Promise<Todo> => {
