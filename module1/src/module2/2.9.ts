@@ -30,7 +30,7 @@ type CheckVehicle<T> = T extends keyof Sheikh ? true : false
 
 type HasBike = CheckVehicle<'car'>   // true
 
-
+ 
 
 
 
