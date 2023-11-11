@@ -4,15 +4,17 @@
 
 
 class Animal {
-    name:string;                  //this is called property inside class
-    species:string;
-    sound:string
+    // public name:string;                  //this is called property inside class
+    // public species:string;
+    // public sound:string
 
 
-    constructor(name:string,species:string,sound:string){
-        this.name=name,
-        this.species=species,
-        this.sound=sound
+    // parameter properties
+
+    constructor(public name:string,public species:string,public sound:string){
+        // this.name=name,
+        // this.species=species,
+        // this.sound=sound
     }
     makeSound(){
         console.log(`The ${this.name} says ${this.sound}` )
